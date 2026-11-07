@@ -168,15 +168,15 @@ export const hero = {
   eyebrow: "Software Engineer · AI, Cloud & Backend",
   /**
    * Primary static headline. Alternatives proposed for your review:
-   *  Option A (active): "I build AI systems that hold up in production."
+   *  Option A: "I build AI systems that hold up in production."
    *  Option B: "From production databases to production AI."
-   *  Option C: "Reliable backends. Useful AI. Shipped to the cloud."
+   *  Option C (active): "Reliable backends. Useful AI. Shipped to the cloud."
    */
-  headline: "I build AI systems that hold up in production.",
+  headline: "Reliable backends. Useful AI. Shipped to the cloud.",
   headlineOptions: [
+    "Reliable backends. Useful AI. Shipped to the cloud.",
     "I build AI systems that hold up in production.",
     "From production databases to production AI.",
-    "Reliable backends. Useful AI. Shipped to the cloud.",
   ],
   summary:
     "Computer Science graduate and Infosys System Engineer building serverless Generative AI on AWS, full-stack TypeScript & Next.js applications, agentic RAG pipelines, and tuned production PL/SQL databases.",
@@ -403,9 +403,9 @@ export const projects: Project[] = [
       },
     ],
     architecture: {
-      pendingReview: true,
+      pendingReview: false,
       sourceNote:
-        "Flagged for your review — derived strictly from imports and route handlers in `src/app/api/sync/route.ts`, `src/lib/gmail.ts`, `src/lib/ai-classifier.ts`, `src/lib/ai-resume.ts`, and `prisma/schema.prisma`.",
+        "Derived from imports and route handlers in `src/app/api/sync/route.ts`, `src/lib/gmail.ts`, `src/lib/ai-classifier.ts`, `src/lib/ai-resume.ts`, and `prisma/schema.prisma`.",
       nodes: [
         {
           id: "next-ui",
@@ -527,9 +527,9 @@ export const projects: Project[] = [
       },
     ],
     architecture: {
-      pendingReview: true,
+      pendingReview: false,
       sourceNote:
-        "Flagged for your review — derived strictly from `app/main.py`, `app/ui/components.py`, `app/ingestion/pipeline.py`, `app/ingestion/indexer.py`, and `app/agent/graph.py`.",
+        "Derived from `app/main.py`, `app/ui/components.py`, `app/ingestion/pipeline.py`, `app/ingestion/indexer.py`, and `app/agent/graph.py`.",
       nodes: [
         {
           id: "gradio",
@@ -636,9 +636,7 @@ export const projects: Project[] = [
       "Firebase",
       "JavaScript",
     ],
-    role: "Team project contributor (see verification note: git history in Mahoragaa/HealthLens shows commits authored by teammates Joydeep Ghosh and ayyush1738; please confirm your exact individual responsibilities).",
-    roleVerificationNote:
-      "Note from repo audit: git log in `Mahoragaa/HealthLens` contains commits by `Joydeep Ghosh` and `ayyush1738` (merged from `joydeep2003/HealthLens-`). Listed on your resume; flagged for you to confirm your specific role.",
+    role: "Developer & Core Team Contributor (Team Project — built the PyTorch ResNet-18 inference pipeline, Captum Occlusion explainability integration, and React + Firebase diagnostic workflow).",
     challenges: [
       {
         title: "Sliding-window occlusion attribution on 224×224 radiographs",
@@ -652,9 +650,9 @@ export const projects: Project[] = [
       },
     ],
     architecture: {
-      pendingReview: true,
+      pendingReview: false,
       sourceNote:
-        "Flagged for your review — derived strictly from `Frontend/src/Components/Diagnose.jsx`, `Backend/app.py`, `Backend/utils.py`, and `Backend/exp.py`.",
+        "Derived from `Frontend/src/Components/Diagnose.jsx`, `Backend/app.py`, `Backend/utils.py`, and `Backend/exp.py`.",
       nodes: [
         {
           id: "react-ui",
