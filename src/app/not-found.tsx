@@ -1,11 +1,10 @@
 import Link from "next/link";
-import { Navbar } from "@/components/navbar";
+import { SiteShell } from "@/components/site-shell";
 import { Footer } from "@/components/footer";
 
 export default function NotFound() {
   return (
-    <div className="min-h-screen flex flex-col bg-bg text-text">
-      <Navbar />
+    <SiteShell>
       <main
         id="main-content"
         className="flex flex-1 flex-col items-center justify-center px-4 py-24 text-center"
@@ -36,6 +35,6 @@ export default function NotFound() {
         </div>
       </main>
       <Footer />
-    </div>
+    </SiteShell>
   );
 }

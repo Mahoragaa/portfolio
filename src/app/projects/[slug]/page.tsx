@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getProjectBySlug, projects } from "@/content/content";
-import { Navbar } from "@/components/navbar";
+import { SiteShell } from "@/components/site-shell";
 import { Footer } from "@/components/footer";
 import { ArchitectureDiagram } from "@/components/architecture-diagram";
 
@@ -48,9 +48,7 @@ export default async function ProjectCaseStudyPage({
   const nextProject = projects[(currentIdx + 1) % projects.length];
 
   return (
-    <div className="min-h-screen flex flex-col bg-bg text-text">
-      <Navbar />
-
+    <SiteShell>
       <main id="main-content" className="flex-1 py-12 sm:py-16">
         <article className="mx-auto max-w-5xl px-4 sm:px-6">
           {/* Breadcrumb */}
@@ -302,7 +300,7 @@ export default async function ProjectCaseStudyPage({
       </main>
 
       <Footer />
-    </div>
+    </SiteShell>
   );
 }
 
