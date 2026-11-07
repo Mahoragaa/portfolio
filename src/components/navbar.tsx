@@ -213,3 +213,4 @@ export function Navbar({ onOpenPalette }: { onOpenPalette?: () => void }) {
     </header>
   );
 }
+
