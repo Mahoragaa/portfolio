@@ -182,13 +182,6 @@ export function Hero({
             className="rounded-2xl border border-line bg-surface/90 p-6 lg:col-span-4"
           >
             <div className="flex items-center gap-4 border-b border-line pb-5">
-              {/* Styled monogram placeholder slot (ready to swap with /photo.jpg) */}
-              <div
-                aria-hidden="true"
-                className="flex h-16 w-16 shrink-0 items-center justify-center rounded-2xl border border-accent-border bg-accent-dim font-display text-2xl font-bold text-accent"
-              >
-                {site.shortName}
-              </div>
               <div>
                 <p className="font-display text-lg font-semibold text-text">
                   {site.name}
